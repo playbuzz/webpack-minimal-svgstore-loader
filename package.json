@@ -1,11 +1,8 @@
 {
   "name": "minimal-svgstore-loader",
   "version": "1.0.0",
-  "description": "Svg loader which processes SVG files with svgstore",
+  "description": "Svg loader which works in pair with Minimal SVG Store Plugin",
   "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/playbuzz/webpack-minimal-svgstore-loader.git"
@@ -16,8 +13,5 @@
   "bugs": {
     "url": "https://github.com/playbuzz/webpack-minimal-svgstore-loader/issues"
   },
-  "homepage": "https://github.com/playbuzz/webpack-minimal-svgstore-loader#readme",
-  "devDependencies": {
-    "jest": "^22.4.0"
-  }
+  "homepage": "https://github.com/playbuzz/webpack-minimal-svgstore-loader#readme"
 }
