@@ -65,4 +65,4 @@ And you may use it from your html like this:
 
 Copyright (c) Playbuzz Ltd. All rights reserved.
 
-Licensed under the [MIT](LICENSE.txt) License.
+Licensed under the [MIT](LICENSE) License.
