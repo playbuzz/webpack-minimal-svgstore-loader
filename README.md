@@ -62,5 +62,7 @@ And you may use it from your html like this:
 ```
 
 ## LICENSE
-TODO: put ref to license
-[MIT]()
+
+Copyright (c) Playbuzz Ltd. All rights reserved.
+
+Licensed under the MIT License.
