@@ -1,4 +1,4 @@
-# Minimal SVG Loader for Webpack
+# Minimal SVGstore Loader for Webpack
 A Webpack loader that works together with [Minimal SVGstore Plugin](https://github.com/playbuzz/webpack-minimal-svgstore-plugin). 
 It allows you to combine multiple SVG files into one, using `<symbol>` elements which you may `<use>` in your markup.
 
