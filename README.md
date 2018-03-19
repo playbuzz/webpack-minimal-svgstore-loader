@@ -5,18 +5,18 @@ It allows you to combine multiple SVG files into one, using `<symbol>` elements 
 ## Install
 
 ```bash
-    npm install minimal-svg-loader -D
+    npm install minimal-svgstore-loader -D
 ```
 or
 ```bash
-    yarn add minimal-svg-loader -D
+    yarn add minimal-svgstore-loader -D
 ```
 
 ## Configuration
 
 1. Require dependencies:
 ```js
-const MinimalSvgstoreWebpackPlugin = require('minimal-svg-plugin');
+const MinimalSvgstoreWebpackPlugin = require('minimal-svgstore-plugin');
 ```
 2. Add configuration object to module.rules like this:
 ```javascript
@@ -24,7 +24,7 @@ module: {
     rules: [
         {
             test: /\.svg$/,
-            loader: 'minimal-svg-loader'
+            loader: 'minimal-svgstore-loader'
         }
     ]
 }
@@ -38,7 +38,7 @@ new MinimalSvgstoreWebpackPlugin({
     prefix: 'icon-prefix-',
     // optional fileName where runtime will be added to 
     // (if you want to have all icon extracted from resulting bundles into single file)
-    fileName: `${element}/${element}.svg.bundle.js`,
+    fileName: `svg-symbols.bundle.js`,
 }),
 ```
 
